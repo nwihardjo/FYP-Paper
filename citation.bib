@@ -1,0 +1,640 @@
+IEEEexample.bib 
+V1.13 (2008/09/30)
+Copyright (c) 2002-2008 by Michael Shell
+See: http://www.michaelshell.org/
+for current contact information.
+
+This is an example BibTeX database for the official IEEEtran.bst
+BibTeX style file.
+
+Some entries call strings that are defined in the IEEEabrv.bib file.
+Therefore, IEEEabrv.bib should be loaded prior to this file.
+Usage:
+
+\bibliographystyle{./IEEEtran}
+\bibliography{./IEEEabrv,./IEEEexample}
+
+
+Support sites:
+http://www.michaelshell.org/tex/ieeetran/
+http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+and/or
+http://www.ieee.org/
+
+*************************************************************************
+Legal Notice:
+This code is offered as-is without any warranty either expressed or
+implied; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE! 
+User assumes all risk.
+In no event shall IEEE or any contributor to this code be liable for
+any damages or losses, including, but not limited to, incidental,
+consequential, or any other damages, resulting from the use or misuse
+of any information contained here.
+
+All comments are the opinions of their respective authors and are not
+necessarily endorsed by the IEEE.
+
+This work is distributed under the LaTeX Project Public License (LPPL)
+( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+distributed and modified. A copy of the LPPL, version 1.3, is included
+in the base LaTeX documentation of all distributions of LaTeX released
+2003/12/01 or later.
+Retain all contribution notices and credits.
+** Modified files should be clearly indicated as such, including  **
+** renaming them and changing author support contact information. **
+
+File list of work: IEEEabrv.bib, IEEEfull.bib, IEEEexample.bib,
+                   IEEEtran.bst, IEEEtranS.bst, IEEEtranSA.bst,
+                   IEEEtranN.bst, IEEEtranSN.bst, IEEEtran_bst_HOWTO.pdf
+*************************************************************************
+
+
+Note that, because the example references were taken from actual IEEE
+publications, these examples do not always contain the full amount
+of information that may be desirable (for use with other BibTeX styles).
+In particular, full names (not abbreviated with initials) should be
+entered whenever possible as some (non-IEEE) bibliography styles use
+full names. IEEEtran.bst will automatically abbreviate when it encounters
+full names.
+ 
+% Encoding: UTF-8
+\bibliographystyle{./IEEEtran}
+\bibliography{./citation}
+
+@article {SkinSystems,
+	author = {Choi, Jungil and Ghaffari, Roozbeh and Baker, Lindsay B. and Rogers, John A.},
+	title = {Skin-interfaced systems for sweat collection and analytics},
+	volume = {4},
+	number = {2},
+	elocation-id = {eaar3921},
+	year = {2018},
+	doi = {10.1126/sciadv.aar3921},
+	publisher = {American Association for the Advancement of Science},
+	URL = {https://advances.sciencemag.org/content/4/2/eaar3921},
+	eprint = {https://advances.sciencemag.org/content/4/2/eaar3921.full.pdf},
+	journal = {Science Advances}
+}
+
+@article{UHMWPEMembrane,
+    author = {Sobieraj, Michael and Rimnac, Clare},
+    year = {2009},
+    month = {11},
+    pages = {433-443},
+    title = {Ultra High Molecular Weight Polyethylene: Mechanics, Morphology, and Clinical Behavior},
+    volume = {2},
+    journal = {Journal of the Mechanical Behavior of Biomedical Materials},
+    doi = {10.1016/j.jmbbm.2008.12.006}
+}
+
+@article{LabOnSkin,
+    author = {Liu, Yuhao and Pharr, Matt and Salvatore, Giovanni Antonio},
+    title = {Lab-on-Skin: A Review of Flexible and Stretchable Electronics for Wearable Health Monitoring},
+    journal = {ACS Nano},
+    volume = {11},
+    number = {10},
+    pages = {9614-9635},
+    year = {2017},
+    doi = {10.1021/acsnano.7b04898},
+    URL = { 
+            https://doi.org/10.1021/acsnano.7b04898
+    },
+    eprint = { 
+            https://doi.org/10.1021/acsnano.7b04898
+}}
+
+@book{PhysHumanPersp, 
+    place={London, UK}, 
+    edition={1}, 
+    title={The physiology of human perspiration}, 
+    publisher={J. & A. Churchill}, 
+    author={Kuno, Yas}, 
+    year={1934}
+} 
+
+@Article{biomarkers,
+    author={Strimbu, Kyle
+    and Tavel, Jorge A.},
+    title={What are biomarkers?},
+    journal={Curr Opin HIV AIDS},
+    year={2010},
+    month={Nov},
+    volume={5},
+    number={6},
+    pages={463-466},
+    issn={1746-6318},
+    doi={10.1097/COH.0b013e32833ed177},
+    url={https://www.ncbi.nlm.nih.gov/pubmed/20978388}
+}
+
+@Article{HPACharacter,
+    author={Jansen, Steffy W.
+    and Roelfsema, Ferdinand
+    and Akintola, Abimbola A.
+    and Oei, Nicole Y.
+    and Cobbaert, Christa M.
+    and Ballieux, Bart E.
+    and van der Grond, Jeroen
+    and Westendorp, Rudi G.
+    and Pijl, Hanno
+    and van Heemst, Diana},
+    title={Characterization of the Hypothalamic-Pituitary-Adrenal-Axis in Familial Longevity under Resting Conditions},
+    journal={PLoS One},
+    year={2015},
+    month={Jul},
+    day={20},
+    publisher={Public Library of Science},
+    volume={10},
+    number={7},
+    pages={e0133119-e0133119},
+    issn={1932-6203},
+    doi={10.1371/journal.pone.0133119},
+    url={https://www.ncbi.nlm.nih.gov/pubmed/26193655}
+}
+
+@article {Parlak_membraneElectro,
+	author = {Parlak, Onur and Keene, Scott Tom and Marais, Andrew and Curto, Vincenzo F. and Salleo, Alberto},
+	title = {Molecularly selective nanoporous membrane-based wearable organic electrochemical device for noninvasive cortisol sensing},
+	volume = {4},
+	number = {7},
+	elocation-id = {eaar2904},
+	year = {2018},
+	doi = {10.1126/sciadv.aar2904},
+	URL = {https://advances.sciencemag.org/content/4/7/eaar2904},
+	eprint = {https://advances.sciencemag.org/content/4/7/eaar2904.full.pdf},
+	journal = {Science Advances}
+}
+
+@article{DetectionCortisolSweat,
+    author = {Russell, Evan and Koren, Gideon and Rieder, Michael and van uum, Stan},
+    year = {2014},
+    month = {02},
+    pages = {30-34},
+    title = {The Detection of Cortisol in Human Sweat: Implications for Measurement of Cortisol in Hair},
+    volume = {36},
+    journal = {Therapeutic Drug Monitoring}
+}
+
+@book{RookDermatology,
+    place={Chichester, West Sussex, UK}, 
+    edition={8}, 
+    title={Rook's Textbook of Dermatology}, 
+    publisher={Wiley-Blackwell}, 
+    author={Burns, Tony and Rook, Arthur}, 
+    year={2010},
+    chapter = {3}
+} 
+
+@article{ElectronicCortisolDetection,
+    author = {Jang, Hyun-June and Lee, Taein and Song, Jian and Russell, Luisa and Li, Hui and Dailey, Jennifer and Searson, Peter C. and Katz, Howard E.},
+    title = {Electronic Cortisol Detection Using an Antibody-Embedded Polymer Coupled to a Field-Effect Transistor},
+    journal = {ACS Applied Materials \& Interfaces},
+    volume = {10},
+    number = {19},
+    pages = {16233-16237},
+    year = {2018},
+    doi = {10.1021/acsami.7b18855},
+    URL = { 
+            https://doi.org/10.1021/acsami.7b18855
+    },
+    eprint = { 
+            https://doi.org/10.1021/acsami.7b18855
+    }
+}
+
+@article{CortisolPOCApp,
+    author = {Kaushik, Ajeet and Vasudev, Abhay and Arya, Sunil and Pasha, Syed and Bhansali, Shekhar},
+    year = {2013},
+    month = {10},
+    pages = {499-512},
+    title = {Recent advances in cortisol sensing technologies for point-of-care application},
+    volume = {53C},
+    journal = {Biosensors & bioelectronics},
+    doi = {10.1016/j.bios.2013.09.060}
+}
+
+@Article{CortisolEccrineSweat,
+    author={Jia, Min
+    and Chew, Wade M.
+    and Feinstein, Yelena
+    and Skeath, Perry
+    and Sternberg, Esther M.},
+    title={Quantification of cortisol in human eccrine sweat by liquid chromatography - tandem mass spectrometry},
+    journal={Analyst},
+    year={2016},
+    month={Mar},
+    day={21},
+    volume={141},
+    number={6},
+    pages={2053-2060},
+    issn={1364-5528},
+    doi={10.1039/c5an02387d},
+    url={https://www.ncbi.nlm.nih.gov/pubmed/26858998}
+}
+
+@Article{ExerciseLactate,
+    author="Buono, Michael J.
+    and Lee, Nanette V. L.
+    and Miller, Paul W.",
+    title="The relationship between exercise intensity and the sweat lactate excretion rate",
+    journal="The Journal of Physiological Sciences",
+    year="2010",
+    month="Mar",
+    day="01",
+    volume="60",
+    number="2",
+    pages="103--107",
+    issn="1880-6562",
+    doi="10.1007/s12576-009-0073-3",
+    url="https://doi.org/10.1007/s12576-009-0073-3"
+}
+
+@inproceedings{MechanicalBehaviourSkin,
+    title={Mechanical Behaviour of Skin : A Review},
+    author={A Kalra, Andrew Lowe, Ahmed M. Al-Jumaily},
+    year={2016}, 
+    journal={Journal of Materical Sciences and Engineering},
+    doi={10.4172/2169-0022.1000254}
+}
+
+@article{AnatomyOfSkin,
+    author = {A. J. Kolarsick, Paul and Ann Kolarsick, Maria and Goodwin, Carolyn},
+    year = {2011},
+    month = {07},
+    pages = {203-213},
+    title = {Anatomy and Physiology of the Skin},
+    volume = {3},
+    journal = {Journal of the Dermatology Nurses' Association},
+    doi = {10.1097/JDN.0b013e3182274a98}
+}
+
+@article{ElasticModulus,
+    title = "Investigation of the elastic modulus of thin films using simple biaxial bending techniques",
+    journal = "Thin Solid Films",
+    volume = "308-309",
+    pages = "304 - 309",
+    year = "1997",
+    issn = "0040-6090",
+    doi = "https://doi.org/10.1016/S0040-6090(97)00559-2",
+    url = "http://www.sciencedirect.com/science/article/pii/S0040609097005592",
+    author = "Å.K Jämting, J.M Bell, M.V Swain, N Schwarzer",
+    keywords = "Elastic modulus, Biaxial bending, Thin films, Magnetron sputtering",
+}
+
+@Article{SheerStrength,
+    author="Arslan, Guray",
+    title="Shear strength of Steel Fiber Reinforced Concrete (SFRC) slender beams",
+    journal="KSCE Journal of Civil Engineering",
+    year="2014",
+    month="Mar",
+    day="01",
+    volume="18",
+    number="2",
+    pages="587--594",
+    issn="1976-3808",
+    doi="10.1007/s12205-014-0320-x",
+    url="https://doi.org/10.1007/s12205-014-0320-x"
+}
+
+@article{UHMWPEBiocompatibility,
+    title = "Mechanical properties and biocompatibility of melt processed, self-reinforced ultrahigh molecular weight polyethylene",
+    journal = "Biomaterials",
+    volume = "35",
+    number = "25",
+    pages = "6687 - 6697",
+    year = "2014",
+    issn = "0142-9612",
+    doi = "https://doi.org/10.1016/j.biomaterials.2014.04.077",
+    url = "http://www.sciencedirect.com/science/article/pii/S014296121400475X",
+    author = "Yan-Fei Huang and Jia-Zhuang Xu and Jian-Shu Li and Ben-Xiang He and Ling Xu and Zhong-Ming Li",
+    keywords = "Artificial joints, Ultrahigh molecular weight polyethylene, Melt processing, Flow accelerator, Self-reinforcement",
+}
+
+@article{NanoZincOxide,
+    author = { S.   Ashok   Kumar  and  Shen‐Ming   Chen },
+    title = {Nanostructured Zinc Oxide Particles in Chemically Modified Electrodes for Biosensor Applications},
+    journal = {Analytical Letters},
+    volume = {41},
+    number = {2},
+    pages = {141-158},
+    year  = {2008},
+    publisher = {Taylor & Francis},
+    doi = {10.1080/00032710701792612},
+    URL = { 
+            https://doi.org/10.1080/00032710701792612
+    },
+    eprint = { 
+            https://doi.org/10.1080/00032710701792612
+    }
+}
+
+@Book{PracticalRaman,
+    author={Gardiner, D. J.
+    and Graves, P. R.
+    and Bowley, H. J.},
+    title={Practical Raman spectroscopy},
+    year={1989},
+    publisher={Springer-Verlag},
+    address={Berlin; New York}
+}
+
+@article{RamanBodyFluids,
+    author = {Virkler, Kelly and K Lednev, Igor},
+    year = {2008},
+    month = {10},
+    pages = {e1-5},
+    title = {Raman spectroscopy offers great potential for the nondestructive confirmatory identification of body fluids},
+    volume = {181},
+    journal = {Forensic science international},
+    doi = {10.1016/j.forsciint.2008.08.004}
+}
+
+@misc{CortisolRaman,
+    author = "Bio-Rad Laboratories",
+    title = " SpectraBase Compound ID=EeiU30bYg32 SpectraBase Spectrum ID=FhOIEJ8nutu",
+    year = "2019",
+    url = "https://spectrabase.com/spectrum/FhOIEJ8nutu",
+    note = "[Accessed 26-Nov-2018]"
+}
+
+@Article{PropertiesZnO,
+    author={Siddiqi, Khwaja Salahuddin
+    and Ur Rahman, Aziz
+    and Tajuddin
+    and Husen, Azamal},
+    title={Properties of Zinc Oxide Nanoparticles and Their Activity Against Microbes},
+    journal={Nanoscale Res Lett},
+    year={2018},
+    month={May},
+    day={08},
+    publisher={Springer US},
+    volume={13},
+    number={1},
+    pages={141-141},
+    issn={1931-7573},
+    doi={10.1186/s11671-018-2532-3},
+    url={https://www.ncbi.nlm.nih.gov/pubmed/29740719}
+}
+
+@misc { Biofeedback,
+      author = "Boris Blumenstein and Iris Orbach",
+      title = "Biofeedback for Sport and Performance Enhancement",
+      year = "2014",
+      month = "06",
+      publisher = "Oxford University Press",
+      url = "https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199935291.001.0001/oxfordhb-9780199935291-e-001"
+}
+
+@article{OvertrainReviewDirections,
+    author = {Kuipers, H and Keizer, HA},
+    year = {1988},
+    month = {09},
+    pages = {79-92},
+    title = {Overtraining in Elite Athletes. Review and Directions for the Future},
+    volume = {6},
+    journal = {Sports medicine (Auckland, N.Z.)}
+}
+
+@Article{ReviewOvertraining,
+    author={Johnson, M. B. and Thiese, S. M.},
+    title={A review of Overtraining Syndrome-recognizing the Signs and Symptoms},
+    journal={J Athl Train},
+    year={1992},
+    volume={27},
+    number={4},
+    pages={352-354},
+    issn={1062-6050},
+    url={https://www.ncbi.nlm.nih.gov/pubmed/16558192}
+}
+
+@article{ImmuneOvertraining,
+    author = {Hackney, Anthony and Koltun, Kristen},
+    year = {2012},
+    month = {12},
+    pages = {633-41},
+    title = {The immune system and overtraining in athletes: Clinical implications},
+    volume = {51},
+    journal = {Acta clinica Croatica}
+}
+
+@article{TemperatureRegulation,
+    title = {Temperature Regulation in Humans and Other Mammals},
+    journal = {Journal of Animal Physiology and Animal Nutrition},
+    volume = {85},
+    number = {9‐10},
+    pages = {333-333},
+    doi = {10.1046/j.1439-0396.2001.0335a.x},
+    url = {https://onlinelibrary.wiley.com/doi/abs/10.1046/j.1439-0396.2001.0335a.x},
+    eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1046/j.1439-0396.2001.0335a.x},
+    year = {2001}
+}
+
+@inbook{BodyFluid,
+    author = {Mack, Gary W. and Nadel, Ethan R.},
+    publisher = {American Cancer Society},
+    isbn = {9780470650714},
+    title = {Body Fluid Balance During Heat Stress in Humans},
+    booktitle = {Comprehensive Physiology},
+    chapter = {4},
+    pages = {187-214},
+    doi = {10.1002/cphy.cp040110},
+    url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cphy.cp040110},
+    eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cphy.cp040110},
+    year = {2011}
+}
+
+@inbook{Thermoregulatory,
+    author = {Sawka, Michael N. and Wenger, C. Bruce and Pandolf, Kent B.},
+    publisher = {American Cancer Society},
+    isbn = {9780470650714},
+    title = {Thermoregulatory Responses to Acute Exercise-Heat Stress and Heat Acclimation},
+    booktitle = {Comprehensive Physiology},
+    chapter = {4},
+    pages = {157-185},
+    doi = {10.1002/cphy.cp040109},
+    url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cphy.cp040109},
+    eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cphy.cp040109},
+    year = {2011}
+}
+
+@Article{CortisolStress,
+    author={Lee, Do Yup
+    and Kim, Eosu
+    and Choi, Man Ho},
+    title={Technical and clinical aspects of cortisol as a biochemical marker of chronic stress},
+    journal={BMB Rep},
+    year={2015},
+    month={Apr},
+    publisher={Korean Society for Biochemistry and Molecular Biology},
+    volume={48},
+    number={4},
+    pages={209-216},
+    issn={1976-670X},
+    doi={10.5483/BMBRep.2015.48.4.275},
+    url={https://www.ncbi.nlm.nih.gov/pubmed/25560699}
+}
+
+@article{RamanEffect,
+    author = {Long, D. A.},
+    title = {The Raman Effect — A Unified Treatment of the Theory of Raman Scattering by Molecules},
+    journal = {Journal of Raman Spectroscopy},
+    volume = {34},
+    number = {2},
+    publisher = {John Wiley & Sons, Ltd.},
+    pages = {180-180},
+    doi = {10.1002/jrs.987},
+    url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/jrs.987},
+    eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/jrs.987},
+    year = {2002}
+}
+
+@article{ModernSpectro,
+    author = {Hollas, J. M.},
+    title = {Modern Spectroscopy},
+    journal = {Journal of Chemical Education},
+    volume = {82},
+    edition = {4},
+    number = {1},
+    pages = {43},
+    year = {2005},
+    doi = {10.1021/ed082p43.1},
+    URL = {
+            https://doi.org/10.1021/ed082p43.1
+        },
+    eprint = {
+            https://doi.org/10.1021/ed082p43.1 
+    }
+}
+
+@article{PE,
+    author = {Sun, P. and Qian, T. Y. and Ji, X. Y. and Wu, C. and Yan, Y. S. and Qi, R. R.},
+    title = {HDPE/UHMWPE composite foams prepared by compression molding with optimized foaming capacity and mechanical properties},
+    journal = {Journal of Applied Polymer Science},
+    volume = {135},
+    number = {46},
+    pages = {46768},
+    doi = {10.1002/app.46768},
+    url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/app.46768},
+    eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/app.46768},
+    year = {2018}
+}
+
+@book{PE_handbook, 
+    place={London}, 
+    edition={1}, 
+    title={The UHMWPE Handbook: Ultra-High Molecular Weight Polyethylene in Total Joint Replacement}, 
+    publisher={Elsevier}, 
+    author={Kurtz, Steven M.}, 
+    year={2004}
+} 
+
+@Article{ExerciseHBR,
+author={Oh, Deuk-Ja
+and Hong, Hyeon-Ok
+and Lee, Bo-Ae},
+title={The effects of strenuous exercises on resting heart rate, blood pressure, and maximal oxygen uptake},
+journal={J Exerc Rehabil},
+year={2016},
+month={Feb},
+day={01},
+publisher={Korean Society of Exercise Rehabilitation},
+volume={12},
+number={1},
+pages={42-46},
+issn={2288-176X},
+url={https://www.ncbi.nlm.nih.gov/pubmed/26933659}
+}
+
+@book{BenderDict, 
+    place={Boca Raton}, 
+    edition={7}, 
+    title={Bender's Dictionary of Nutrition and Food Technology}, 
+    doi={10.1093/acref/9780199234875.001.0001},
+    publisher={CRC Press}, 
+    author={Bender, David A. and Bender, Arnold E.}, 
+    year={2006},
+    isbn={9780199234875}
+}
+
+@incollection{ExerciseMetabolic,
+title = "EXERCISE | Metabolic Requirements",
+editor = "Benjamin Caballero",
+booktitle = "Encyclopedia of Food Sciences and Nutrition (Second Edition)",
+publisher = "Academic Press",
+edition = "Second Edition",
+address = "Oxford",
+pages = "2217 - 2222",
+year = "2003",
+isbn = "978-0-12-227055-0",
+doi = "https://doi.org/10.1016/B0-12-227055-X/00433-8",
+url = "http://www.sciencedirect.com/science/article/pii/B012227055X004338",
+author = "S.C. Dennis and T.D Noakes"
+}
+
+@Article{Cushing,
+author={Sharma, Susmeeta T.
+and Nieman, Lynnette K.
+and Feelders, Richard A.},
+title={Cushing's syndrome: epidemiology and developments in disease management},
+journal={Clin Epidemiol},
+year={2015},
+month={Apr},
+day={17},
+publisher={Dove Medical Press},
+volume={7},
+pages={281-293},
+issn={1179-1349},
+doi={10.2147/CLEP.S44336},
+url={https://www.ncbi.nlm.nih.gov/pubmed/25945066}
+}
+
+@Article{StrenuousExercise,
+author={Oh, Deuk-Ja
+and Hong, Hyeon-Ok
+and Lee, Bo-Ae},
+title={The effects of strenuous exercises on resting heart rate, blood pressure, and maximal oxygen uptake},
+journal={J Exerc Rehabil},
+year={2016},
+month={Feb},
+day={01},
+publisher={Korean Society of Exercise Rehabilitation},
+volume={12},
+number={1},
+pages={42-46},
+issn={2288-176X},
+url={https://www.ncbi.nlm.nih.gov/pubmed/26933659}
+}
+
+[44] @article{ZnO,
+title = "Analysis of titanium dioxide and zinc oxide nanoparticles in cosmetics",
+journal = "Journal of Food and Drug Analysis",
+volume = "23",
+number = "3",
+pages = "587 - 594",
+year = "2015",
+issn = "1021-9498",
+doi = "https://doi.org/10.1016/j.jfda.2015.02.009",
+url = "http://www.sciencedirect.com/science/article/pii/S1021949815000423",
+author = "Pei-Jia Lu and Shou-Chieh Huang and Yu-Pen Chen and Lih-Ching Chiueh and Daniel Yang-Chih Shih",
+keywords = "nanoparticles, sunscreen, titanium dioxide, zinc oxide",
+}
+
+@misc{Sigma38, 
+    title = "Zinc Oxide - Sigma Aldrich",
+    year = "2019",
+    note = "[Accessed 01-May-2019]"
+    , url = " https://www.sigmaaldrich.com/catalog/product/aldrich/544906?lang=en&region=HK" }
+    
+@misc{Sigma39, 
+    title = "Ethyl Alcohol - Sigma Aldrich",
+    year = "2019",
+    note = "[Accessed 01-May-2019]"
+    , url = "https://www.sigmaaldrich.com/catalog/substance/ethylalcoholpure46076417511?lang=en&region=HK" }
+    
+@misc{Blood,
+    author="Amazon",
+    title = "Blood Pricker", 
+    year = "2019", 
+    note = "[Accessed 01-May-2019]", 
+    url = "https://www.amazon.com/ijCare-Lancets-Blood-Testing-300pcs/dp/B077YGTVDH/ref=sr_1_25?keywords=finger\%2Bpricker\%2Bneedle&qid=1557070490&s=gateway&sr=8-25&th=1"
+    }
